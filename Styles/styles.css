@@ -145,4 +145,46 @@ li {
     font-size: 22px;
 }
 
+.action_container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 100px;
+    color: white;
+}
 
+.calltoaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    width: 750px;
+    padding: 50px 140px;
+    border-radius: 10px;
+}
+
+.actiontext h3, .actiontext p {
+    margin: 0;
+}
+
+.actiontext h3 {
+    font-size: 22px;
+}
+
+.actiontext {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.signup2 {
+    background-color: #3882F6;
+    border-color: white;
+    border-style: none;
+    border-style: solid;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
