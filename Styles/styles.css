@@ -1,19 +1,26 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 .header {
     display: flex;
+    flex-direction: column;
     background-color: #1F2937;
     color: white;
+    padding: 20px 185px 140px 220px;
+}
+
+.upper_header, .lower_header {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 185px 20px 220px;
 }
 
 .header_logo {
-    font-size: 24px;;
+    font-size: 24px;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
@@ -21,6 +28,52 @@ body {
     display: flex;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.lower_header {
+    margin-top: 125px;
+    align-items: stretch;
+    gap: 50px;
+}
+
+.hero_text {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.hero_text h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero_text p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.placeholder_image {
+    display: flex;
+    flex: 1;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup {
+    flex: 0 1 auto;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 42px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 ul {
