@@ -1,7 +1,12 @@
 body {
-    margin: 0 20px;
     padding: 0;
+    margin: auto;
+    background-color: #222;
+    width: 1500px;
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .header {
@@ -86,20 +91,10 @@ li {
     margin-left: 20px;
 }
 
-.cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 75px;
-}
-
 .info {
     text-align: center;
-    padding: 30px;
-}
-
-.card {
-    max-width: 200px;
+    padding: 50px;
+    background-color: white;
 }
 
 .info_title {
@@ -110,13 +105,44 @@ li {
     color: #1F2937;
 }
 
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+}
+
+.card {
+    max-width: 175px;
+}
+
 .image {
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
     border-radius: 15px;
-    border: solid turquoise 5px;
+    border: solid rgb(113, 106, 206) 5px;
+}
+
+.recommendation {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
 }
 
 .quote {
-    background-color: #E5E7EB;
+    max-width: 935px;
+    font: italic lighter 36px sans-serif;
+    color:#1F2937;
+    margin: 0;
 }
+
+.quotee {
+    align-self: flex-end;
+    margin: 0 220px 0 0;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+
