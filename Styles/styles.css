@@ -1,9 +1,7 @@
 body {
     margin: 0 20px;
     padding: 0;
-    background-color: #222;
     font-family: sans-serif;
-    letter-spacing: -2px;
 }
 
 .header {
@@ -86,4 +84,39 @@ ul {
 
 li {
     margin-left: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+.info {
+    text-align: center;
+    padding: 30px;
+}
+
+.card {
+    max-width: 200px;
+}
+
+.info_title {
+    background-color: white;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    border: solid turquoise 5px;
+}
+
+.quote {
+    background-color: #E5E7EB;
 }
